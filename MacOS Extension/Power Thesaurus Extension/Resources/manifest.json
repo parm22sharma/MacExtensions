@@ -1,0 +1,34 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "styles/palette.css", "styles/variables.css" ],
+      "js": [ "runtime.js", "vendors-background-content-options-popup.js", "vendors-content-options-popup.js", "content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://www.googletagmanager.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "View synonyms and antonyms by button in toolbar, right-click or by word selection on any page.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "64": "images/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1cWY1j5n3UO210MsuYw2S73wER3CTcQUBoCM1aax2zggnnfDcjQQuBw8uwSHByVKvHOz9x2A4eARKmbdpKChnI2jwBEoO+VDT+4lNopSsNp4CSP3ovF2Aep06JVChDSH9GC8miMkQsRaQmHcHTyXVMqazDstZlQpiAUqvVnwS3KZvTd8a1o9B8mn3lr63uHpsLEfRWE7/HQVE9IGJGYFo8uwHW8Q9XJbCI+I74oS2f+Y5oMRzV4GTzGl+souq485wLId6zmT9lPBd3mILZDkLoAgJ27fElkqnYfTi/GxqrEuHLjfoTDVnY/q6RtbSzB1yLqCQattt1FoFXbF5VHFswIDAQAB",
+   "manifest_version": 2,
+   "name": "Power Thesaurus",
+   "options_ui": {
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "contextMenus", "tabs" ],
+   "short_name": "PT",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.7",
+   "web_accessible_resources": [ "images/*", "styles/*", "*.css" ]
+}

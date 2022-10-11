@@ -1,0 +1,26 @@
+:root {
+  --pt-ext-fontSecondary: 'Roboto:400', sans-serif;
+  --pt-ext-font-size-primary: 14px;
+  --pt-ext-font-size-secondary: 12px;
+  --pt-ext-line-height: 1.7;
+  --pt-ext-font-item-font-weight: 700;
+  --pt-ext-font-tooltip-header-font-size: 20px;
+}
+
+:root > body[data-pt-ext-size='small'] {
+  --pt-ext-fontSecondary: 'Roboto:400', sans-serif;
+  --pt-ext-font-size-primary: 12px;
+  --pt-ext-font-size-secondary: 10px;
+  --pt-ext-line-height: 1.5;
+  --pt-ext-font-item-font-weight: 700;
+  --pt-ext-font-tooltip-header-font-size: 18px;
+}
+
+:root > body[data-pt-ext-size='large'] {
+  --pt-ext-fontSecondary: 'Roboto:400', sans-serif;
+  --pt-ext-font-size-primary: 16px;
+  --pt-ext-font-size-secondary: 14px;
+  --pt-ext-line-height: 1.7;
+  --pt-ext-font-item-font-weight: 700;
+  --pt-ext-font-tooltip-header-font-size: 22px;
+}

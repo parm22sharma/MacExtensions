@@ -1,0 +1,39 @@
+{
+   "antonyms_count": {
+      "message": "$count$ антонимов",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "definitions_count": {
+      "message": "$count$ определения",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "network_error": {
+      "description": "Сообщение, показываемое пользователю при сетевых ошибках.",
+      "message": "Ошибка! Отсутствует Интернет соединение."
+   },
+   "reboot_button": {
+      "message": "Попробовать снова"
+   },
+   "synonyms_count": {
+      "message": "$count$ синонимов",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "term_not_found": {
+      "message": "Слово не найдено"
+   }
+}

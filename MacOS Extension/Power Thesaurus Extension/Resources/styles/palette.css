@@ -1,0 +1,97 @@
+:root {
+  --pt-ext-light-palette-background: #f0f1f5;
+  --pt-ext-light-palette-clickable-primary: #3e5362;
+  --pt-ext-light-palette-clickable-primary-hover: #1d2b36;
+  --pt-ext-light-palette-clickable-secondary: #999999;
+  --pt-ext-light-palette-clickable-secondary-hover: #777777;
+  --pt-ext-light-palette-text: #333333;
+  --pt-ext-light-palette-labels: #89939b;
+  --pt-ext-light-palette-separator: #ebedef;
+
+  /**
+     * ===============
+     *  Dark Palette
+     * ===============
+     */
+
+  --pt-ext-dark-palette-background-primary: #3e5262;
+  --pt-ext-dark-palette-background-secondary: #384a59;
+  --pt-ext-dark-palette-clickable-primary: #ffffff;
+  --pt-ext-dark-palette-separator: #526472;
+  --pt-ext-dark-palette-labels: #c5cbd0;
+
+  /**
+     * =================
+     *  Overall Palette
+     * =================
+     */
+
+  --pt-ext-overall-palette-field: #e1e3eb;
+  --pt-ext-overall-palette-active-area: #ffffff;
+  --pt-ext-overall-palette-overlay: #000000;
+
+  /**
+     * ================
+     *  Accent Palette
+     * ================
+     */
+
+  --pt-ext-accent-palette-clickable: #168be8;
+  --pt-ext-accent-palette-clickable-2: #0070cc;
+  --pt-ext-accent-palette-active-state: #ff9833;
+  --pt-ext-accent-palette-positive: #49c661;
+  --pt-ext-accent-palette-negative: #de4747;
+  --pt-ext-accent-palette-neutral: #999999;
+  --pt-ext-accent-palette-labels: #ffffff;
+
+  --pt-ext-color-logo: #000000;
+}
+
+:root > body[data-pt-ext-theme='dark'] {
+  --pt-ext-light-palette-background: hsl(210, 30%, 9%);
+  --pt-ext-light-palette-clickable-primary: #3e5362;
+  --pt-ext-light-palette-clickable-primary-hover: #1d2b36;
+  --pt-ext-light-palette-clickable-secondary: #999999;
+  --pt-ext-light-palette-clickable-secondary-hover: #777777;
+  --pt-ext-light-palette-text: hsl(0, 0%, 80%);
+  --pt-ext-light-palette-labels: hsl(0, 0%, 60%);
+  --pt-ext-light-palette-separator: #1d2b36;
+
+  /**
+       * ===============
+       *  Dark Palette
+       * ===============
+       */
+
+  --pt-ext-dark-palette-background-primary: #3e5262;
+  --pt-ext-dark-palette-background-secondary: #384a59;
+  --pt-ext-dark-palette-clickable-primary: hsl(210, 30%, 1%);
+  --pt-ext-dark-palette-separator: #526472;
+  --pt-ext-dark-palette-labels: #c5cbd0;
+
+  /**
+       * =================
+       *  Overall Palette
+       * =================
+       */
+
+  --pt-ext-overall-palette-field: hsl(210, 30%, 9%);
+  --pt-ext-overall-palette-active-area: hsl(210, 30%, 8%);
+  --pt-ext-overall-palette-overlay: hsl(210, 30%, 7%);
+
+  /**
+       * ================
+       *  Accent Palette
+       * ================
+       */
+
+  --pt-ext-accent-palette-clickable: #168be8;
+  --pt-ext-accent-palette-clickable-2: #0070cc;
+  --pt-ext-accent-palette-active-state: #ff9833;
+  --pt-ext-accent-palette-positive: #49c661;
+  --pt-ext-accent-palette-negative: #de4747;
+  --pt-ext-accent-palette-neutral: #999999;
+  --pt-ext-accent-palette-labels: #ffffff;
+
+  --pt-ext-color-logo: #ffffff;
+}

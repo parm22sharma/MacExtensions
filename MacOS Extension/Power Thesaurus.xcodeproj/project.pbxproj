@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717D759A265B1A9F00A5EBDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD8A244E1348008A14D6 /* ViewController.m */; };
+		717D759B265B1A9F00A5EBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD8F244E1349008A14D6 /* main.m */; };
+		717D759C265B1A9F00A5EBDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD84244E1348008A14D6 /* AppDelegate.m */; };
+		717D759F265B1A9F00A5EBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFD8C244E1349008A14D6 /* Assets.xcassets */; };
+		717D75A0265B1A9F00A5EBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFD86244E1348008A14D6 /* Main.storyboard */; };
+		717D75A2265B1A9F00A5EBDF /* Power Thesaurus Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F6EBFDAB244E1349008A14D6 /* Power Thesaurus Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6EBFD85244E1348008A14D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD84244E1348008A14D6 /* AppDelegate.m */; };
+		F6EBFD88244E1348008A14D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFD86244E1348008A14D6 /* Main.storyboard */; };
+		F6EBFD8B244E1348008A14D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD8A244E1348008A14D6 /* ViewController.m */; };
+		F6EBFD8D244E1349008A14D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFD8C244E1349008A14D6 /* Assets.xcassets */; };
+		F6EBFD90244E1349008A14D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD8F244E1349008A14D6 /* main.m */; };
+		F6EBFD9A244E1349008A14D6 /* Power_ThesaurusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFD99244E1349008A14D6 /* Power_ThesaurusTests.m */; };
+		F6EBFDA5244E1349008A14D6 /* Power_ThesaurusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFDA4244E1349008A14D6 /* Power_ThesaurusUITests.m */; };
+		F6EBFDAC244E1349008A14D6 /* Power Thesaurus Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F6EBFDAB244E1349008A14D6 /* Power Thesaurus Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F6EBFDB1244E1349008A14D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6EBFDB0244E1349008A14D6 /* Cocoa.framework */; };
+		F6EBFDB5244E1349008A14D6 /* SafariWebExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBFDB4244E1349008A14D6 /* SafariWebExtensionHandler.m */; };
+		F6EBFDD8244E134A008A14D6 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDC8244E134A008A14D6 /* popup.js */; };
+		F6EBFDD9244E134A008A14D6 /* runtime.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDC9244E134A008A14D6 /* runtime.js */; };
+		F6EBFDDA244E134A008A14D6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDCA244E134A008A14D6 /* background.js */; };
+		F6EBFDDB244E134A008A14D6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDCB244E134A008A14D6 /* images */; };
+		F6EBFDDC244E134A008A14D6 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDCC244E134A008A14D6 /* popup.html */; };
+		F6EBFDDD244E134A008A14D6 /* vendors-background-content-options-popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDCD244E134A008A14D6 /* vendors-background-content-options-popup.js */; };
+		F6EBFDDE244E134A008A14D6 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDCE244E134A008A14D6 /* options.js */; };
+		F6EBFDDF244E134A008A14D6 /* _metadata in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDCF244E134A008A14D6 /* _metadata */; };
+		F6EBFDE0244E134A008A14D6 /* styles in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD0244E134A008A14D6 /* styles */; };
+		F6EBFDE1244E134A008A14D6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD1244E134A008A14D6 /* manifest.json */; };
+		F6EBFDE2244E134A008A14D6 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD2244E134A008A14D6 /* options.html */; };
+		F6EBFDE3244E134A008A14D6 /* background.html in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD3244E134A008A14D6 /* background.html */; };
+		F6EBFDE4244E134A008A14D6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD4244E134A008A14D6 /* _locales */; };
+		F6EBFDE5244E134A008A14D6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD5244E134A008A14D6 /* content.js */; };
+		F6EBFDE6244E134A008A14D6 /* vendors-content-options-popup.js in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD6244E134A008A14D6 /* vendors-content-options-popup.js */; };
+		F6EBFDE7244E134A008A14D6 /* content.html in Resources */ = {isa = PBXBuildFile; fileRef = F6EBFDD7244E134A008A14D6 /* content.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717D7598265B1A9F00A5EBDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EBFD77244E1348008A14D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EBFDAA244E1349008A14D6;
+			remoteInfo = "Power Thesaurus Extension";
+		};
+		F6EBFD96244E1349008A14D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EBFD77244E1348008A14D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EBFD7E244E1348008A14D6;
+			remoteInfo = "Power Thesaurus";
+		};
+		F6EBFDA1244E1349008A14D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EBFD77244E1348008A14D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EBFD7E244E1348008A14D6;
+			remoteInfo = "Power Thesaurus";
+		};
+		F6EBFDAD244E1349008A14D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6EBFD77244E1348008A14D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6EBFDAA244E1349008A14D6;
+			remoteInfo = "Power Thesaurus Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		717D75A1265B1A9F00A5EBDF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				717D75A2265B1A9F00A5EBDF /* Power Thesaurus Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFDBD244E1349008A14D6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F6EBFDAC244E1349008A14D6 /* Power Thesaurus Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		717D75A6265B1A9F00A5EBDF /* Power Thesaurus copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Thesaurus copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717D75A7265B1A9F00A5EBDF /* Power Thesaurus copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Power Thesaurus copy-Info.plist"; path = "/Users/parmindersharma/Downloads/dont delete/shoto projects/MacOS/MacOS Extension/Power Thesaurus copy-Info.plist"; sourceTree = "<absolute>"; };
+		F6EBFD7F244E1348008A14D6 /* Power Thesaurus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Power Thesaurus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EBFD82244E1348008A14D6 /* Power_Thesaurus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Power_Thesaurus.entitlements; sourceTree = "<group>"; };
+		F6EBFD83244E1348008A14D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6EBFD84244E1348008A14D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F6EBFD87244E1348008A14D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6EBFD89244E1348008A14D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F6EBFD8A244E1348008A14D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6EBFD8C244E1349008A14D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6EBFD8E244E1349008A14D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EBFD8F244E1349008A14D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F6EBFD95244E1349008A14D6 /* Power ThesaurusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power ThesaurusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EBFD99244E1349008A14D6 /* Power_ThesaurusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_ThesaurusTests.m; sourceTree = "<group>"; };
+		F6EBFD9B244E1349008A14D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EBFDA0244E1349008A14D6 /* Power ThesaurusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Power ThesaurusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EBFDA4244E1349008A14D6 /* Power_ThesaurusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Power_ThesaurusUITests.m; sourceTree = "<group>"; };
+		F6EBFDA6244E1349008A14D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EBFDAB244E1349008A14D6 /* Power Thesaurus Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Power Thesaurus Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6EBFDB0244E1349008A14D6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F6EBFDB3244E1349008A14D6 /* SafariWebExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariWebExtensionHandler.h; sourceTree = "<group>"; };
+		F6EBFDB4244E1349008A14D6 /* SafariWebExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariWebExtensionHandler.m; sourceTree = "<group>"; };
+		F6EBFDB6244E1349008A14D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6EBFDB7244E1349008A14D6 /* Power_Thesaurus_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Power_Thesaurus_Extension.entitlements; sourceTree = "<group>"; };
+		F6EBFDC8244E134A008A14D6 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		F6EBFDC9244E134A008A14D6 /* runtime.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = runtime.js; path = Resources/runtime.js; sourceTree = "<group>"; };
+		F6EBFDCA244E134A008A14D6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		F6EBFDCB244E134A008A14D6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		F6EBFDCC244E134A008A14D6 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		F6EBFDCD244E134A008A14D6 /* vendors-background-content-options-popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-background-content-options-popup.js"; path = "Resources/vendors-background-content-options-popup.js"; sourceTree = "<group>"; };
+		F6EBFDCE244E134A008A14D6 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
+		F6EBFDCF244E134A008A14D6 /* _metadata */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _metadata; path = Resources/_metadata; sourceTree = "<group>"; };
+		F6EBFDD0244E134A008A14D6 /* styles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = styles; path = Resources/styles; sourceTree = "<group>"; };
+		F6EBFDD1244E134A008A14D6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		F6EBFDD2244E134A008A14D6 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+		F6EBFDD3244E134A008A14D6 /* background.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = background.html; path = Resources/background.html; sourceTree = "<group>"; };
+		F6EBFDD4244E134A008A14D6 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		F6EBFDD5244E134A008A14D6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+		F6EBFDD6244E134A008A14D6 /* vendors-content-options-popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "vendors-content-options-popup.js"; path = "Resources/vendors-content-options-popup.js"; sourceTree = "<group>"; };
+		F6EBFDD7244E134A008A14D6 /* content.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = content.html; path = Resources/content.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717D759D265B1A9F00A5EBDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD7C244E1348008A14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD92244E1349008A14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD9D244E1349008A14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFDA8244E1349008A14D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFDB1244E1349008A14D6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6EBFD76244E1348008A14D6 = {
+			isa = PBXGroup;
+			children = (
+				F6EBFD81244E1348008A14D6 /* Power Thesaurus */,
+				F6EBFD98244E1349008A14D6 /* Power ThesaurusTests */,
+				F6EBFDA3244E1349008A14D6 /* Power ThesaurusUITests */,
+				F6EBFDB2244E1349008A14D6 /* Power Thesaurus Extension */,
+				F6EBFDAF244E1349008A14D6 /* Frameworks */,
+				F6EBFD80244E1348008A14D6 /* Products */,
+				717D75A7265B1A9F00A5EBDF /* Power Thesaurus copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		F6EBFD80244E1348008A14D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFD7F244E1348008A14D6 /* Power Thesaurus.app */,
+				F6EBFD95244E1349008A14D6 /* Power ThesaurusTests.xctest */,
+				F6EBFDA0244E1349008A14D6 /* Power ThesaurusUITests.xctest */,
+				F6EBFDAB244E1349008A14D6 /* Power Thesaurus Extension.appex */,
+				717D75A6265B1A9F00A5EBDF /* Power Thesaurus copy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6EBFD81244E1348008A14D6 /* Power Thesaurus */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFD82244E1348008A14D6 /* Power_Thesaurus.entitlements */,
+				F6EBFD83244E1348008A14D6 /* AppDelegate.h */,
+				F6EBFD84244E1348008A14D6 /* AppDelegate.m */,
+				F6EBFD86244E1348008A14D6 /* Main.storyboard */,
+				F6EBFD89244E1348008A14D6 /* ViewController.h */,
+				F6EBFD8A244E1348008A14D6 /* ViewController.m */,
+				F6EBFD8C244E1349008A14D6 /* Assets.xcassets */,
+				F6EBFD8E244E1349008A14D6 /* Info.plist */,
+				F6EBFD8F244E1349008A14D6 /* main.m */,
+			);
+			path = "Power Thesaurus";
+			sourceTree = "<group>";
+		};
+		F6EBFD98244E1349008A14D6 /* Power ThesaurusTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFD99244E1349008A14D6 /* Power_ThesaurusTests.m */,
+				F6EBFD9B244E1349008A14D6 /* Info.plist */,
+			);
+			path = "Power ThesaurusTests";
+			sourceTree = "<group>";
+		};
+		F6EBFDA3244E1349008A14D6 /* Power ThesaurusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFDA4244E1349008A14D6 /* Power_ThesaurusUITests.m */,
+				F6EBFDA6244E1349008A14D6 /* Info.plist */,
+			);
+			path = "Power ThesaurusUITests";
+			sourceTree = "<group>";
+		};
+		F6EBFDAF244E1349008A14D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFDB0244E1349008A14D6 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6EBFDB2244E1349008A14D6 /* Power Thesaurus Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFDC7244E134A008A14D6 /* Resources */,
+				F6EBFDB3244E1349008A14D6 /* SafariWebExtensionHandler.h */,
+				F6EBFDB4244E1349008A14D6 /* SafariWebExtensionHandler.m */,
+				F6EBFDB6244E1349008A14D6 /* Info.plist */,
+				F6EBFDB7244E1349008A14D6 /* Power_Thesaurus_Extension.entitlements */,
+			);
+			path = "Power Thesaurus Extension";
+			sourceTree = "<group>";
+		};
+		F6EBFDC7244E134A008A14D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBFDC8244E134A008A14D6 /* popup.js */,
+				F6EBFDC9244E134A008A14D6 /* runtime.js */,
+				F6EBFDCA244E134A008A14D6 /* background.js */,
+				F6EBFDCB244E134A008A14D6 /* images */,
+				F6EBFDCC244E134A008A14D6 /* popup.html */,
+				F6EBFDCD244E134A008A14D6 /* vendors-background-content-options-popup.js */,
+				F6EBFDCE244E134A008A14D6 /* options.js */,
+				F6EBFDCF244E134A008A14D6 /* _metadata */,
+				F6EBFDD0244E134A008A14D6 /* styles */,
+				F6EBFDD1244E134A008A14D6 /* manifest.json */,
+				F6EBFDD2244E134A008A14D6 /* options.html */,
+				F6EBFDD3244E134A008A14D6 /* background.html */,
+				F6EBFDD4244E134A008A14D6 /* _locales */,
+				F6EBFDD5244E134A008A14D6 /* content.js */,
+				F6EBFDD6244E134A008A14D6 /* vendors-content-options-popup.js */,
+				F6EBFDD7244E134A008A14D6 /* content.html */,
+			);
+			name = Resources;
+			path = "Power Thesaurus Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717D7596265B1A9F00A5EBDF /* Power Thesaurus copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717D75A3265B1A9F00A5EBDF /* Build configuration list for PBXNativeTarget "Power Thesaurus copy" */;
+			buildPhases = (
+				717D7599265B1A9F00A5EBDF /* Sources */,
+				717D759D265B1A9F00A5EBDF /* Frameworks */,
+				717D759E265B1A9F00A5EBDF /* Resources */,
+				717D75A1265B1A9F00A5EBDF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717D7597265B1A9F00A5EBDF /* PBXTargetDependency */,
+			);
+			name = "Power Thesaurus copy";
+			productName = "Power Thesaurus";
+			productReference = 717D75A6265B1A9F00A5EBDF /* Power Thesaurus copy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6EBFD7E244E1348008A14D6 /* Power Thesaurus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EBFDBE244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power Thesaurus" */;
+			buildPhases = (
+				F6EBFD7B244E1348008A14D6 /* Sources */,
+				F6EBFD7C244E1348008A14D6 /* Frameworks */,
+				F6EBFD7D244E1348008A14D6 /* Resources */,
+				F6EBFDBD244E1349008A14D6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EBFDAE244E1349008A14D6 /* PBXTargetDependency */,
+			);
+			name = "Power Thesaurus";
+			productName = "Power Thesaurus";
+			productReference = F6EBFD7F244E1348008A14D6 /* Power Thesaurus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6EBFD94244E1349008A14D6 /* Power ThesaurusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EBFDC1244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power ThesaurusTests" */;
+			buildPhases = (
+				F6EBFD91244E1349008A14D6 /* Sources */,
+				F6EBFD92244E1349008A14D6 /* Frameworks */,
+				F6EBFD93244E1349008A14D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EBFD97244E1349008A14D6 /* PBXTargetDependency */,
+			);
+			name = "Power ThesaurusTests";
+			productName = "Power ThesaurusTests";
+			productReference = F6EBFD95244E1349008A14D6 /* Power ThesaurusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6EBFD9F244E1349008A14D6 /* Power ThesaurusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EBFDC4244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power ThesaurusUITests" */;
+			buildPhases = (
+				F6EBFD9C244E1349008A14D6 /* Sources */,
+				F6EBFD9D244E1349008A14D6 /* Frameworks */,
+				F6EBFD9E244E1349008A14D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6EBFDA2244E1349008A14D6 /* PBXTargetDependency */,
+			);
+			name = "Power ThesaurusUITests";
+			productName = "Power ThesaurusUITests";
+			productReference = F6EBFDA0244E1349008A14D6 /* Power ThesaurusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F6EBFDAA244E1349008A14D6 /* Power Thesaurus Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6EBFDBA244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power Thesaurus Extension" */;
+			buildPhases = (
+				F6EBFDA7244E1349008A14D6 /* Sources */,
+				F6EBFDA8244E1349008A14D6 /* Frameworks */,
+				F6EBFDA9244E1349008A14D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Power Thesaurus Extension";
+			productName = "Power Thesaurus Extension";
+			productReference = F6EBFDAB244E1349008A14D6 /* Power Thesaurus Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6EBFD77244E1348008A14D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Jessie Berlin";
+				TargetAttributes = {
+					F6EBFD7E244E1348008A14D6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F6EBFD94244E1349008A14D6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F6EBFD7E244E1348008A14D6;
+					};
+					F6EBFD9F244E1349008A14D6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F6EBFD7E244E1348008A14D6;
+					};
+					F6EBFDAA244E1349008A14D6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = F6EBFD7A244E1348008A14D6 /* Build configuration list for PBXProject "Power Thesaurus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6EBFD76244E1348008A14D6;
+			productRefGroup = F6EBFD80244E1348008A14D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6EBFD7E244E1348008A14D6 /* Power Thesaurus */,
+				F6EBFD94244E1349008A14D6 /* Power ThesaurusTests */,
+				F6EBFD9F244E1349008A14D6 /* Power ThesaurusUITests */,
+				F6EBFDAA244E1349008A14D6 /* Power Thesaurus Extension */,
+				717D7596265B1A9F00A5EBDF /* Power Thesaurus copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717D759E265B1A9F00A5EBDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717D759F265B1A9F00A5EBDF /* Assets.xcassets in Resources */,
+				717D75A0265B1A9F00A5EBDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD7D244E1348008A14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFD8D244E1349008A14D6 /* Assets.xcassets in Resources */,
+				F6EBFD88244E1348008A14D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD93244E1349008A14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD9E244E1349008A14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFDA9244E1349008A14D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFDDB244E134A008A14D6 /* images in Resources */,
+				F6EBFDE0244E134A008A14D6 /* styles in Resources */,
+				F6EBFDE1244E134A008A14D6 /* manifest.json in Resources */,
+				F6EBFDDF244E134A008A14D6 /* _metadata in Resources */,
+				F6EBFDE2244E134A008A14D6 /* options.html in Resources */,
+				F6EBFDDC244E134A008A14D6 /* popup.html in Resources */,
+				F6EBFDDD244E134A008A14D6 /* vendors-background-content-options-popup.js in Resources */,
+				F6EBFDDE244E134A008A14D6 /* options.js in Resources */,
+				F6EBFDD8244E134A008A14D6 /* popup.js in Resources */,
+				F6EBFDDA244E134A008A14D6 /* background.js in Resources */,
+				F6EBFDE7244E134A008A14D6 /* content.html in Resources */,
+				F6EBFDE3244E134A008A14D6 /* background.html in Resources */,
+				F6EBFDE4244E134A008A14D6 /* _locales in Resources */,
+				F6EBFDE5244E134A008A14D6 /* content.js in Resources */,
+				F6EBFDD9244E134A008A14D6 /* runtime.js in Resources */,
+				F6EBFDE6244E134A008A14D6 /* vendors-content-options-popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717D7599265B1A9F00A5EBDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717D759A265B1A9F00A5EBDF /* ViewController.m in Sources */,
+				717D759B265B1A9F00A5EBDF /* main.m in Sources */,
+				717D759C265B1A9F00A5EBDF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD7B244E1348008A14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFD8B244E1348008A14D6 /* ViewController.m in Sources */,
+				F6EBFD90244E1349008A14D6 /* main.m in Sources */,
+				F6EBFD85244E1348008A14D6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD91244E1349008A14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFD9A244E1349008A14D6 /* Power_ThesaurusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFD9C244E1349008A14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFDA5244E1349008A14D6 /* Power_ThesaurusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EBFDA7244E1349008A14D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6EBFDB5244E1349008A14D6 /* SafariWebExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717D7597265B1A9F00A5EBDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EBFDAA244E1349008A14D6 /* Power Thesaurus Extension */;
+			targetProxy = 717D7598265B1A9F00A5EBDF /* PBXContainerItemProxy */;
+		};
+		F6EBFD97244E1349008A14D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EBFD7E244E1348008A14D6 /* Power Thesaurus */;
+			targetProxy = F6EBFD96244E1349008A14D6 /* PBXContainerItemProxy */;
+		};
+		F6EBFDA2244E1349008A14D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EBFD7E244E1348008A14D6 /* Power Thesaurus */;
+			targetProxy = F6EBFDA1244E1349008A14D6 /* PBXContainerItemProxy */;
+		};
+		F6EBFDAE244E1349008A14D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6EBFDAA244E1349008A14D6 /* Power Thesaurus Extension */;
+			targetProxy = F6EBFDAD244E1349008A14D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6EBFD86244E1348008A14D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6EBFD87244E1348008A14D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717D75A4265B1A9F00A5EBDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus/Power_Thesaurus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKPBD94D7D;
+				INFOPLIST_FILE = "Power Thesaurus copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.00d46edde02ac253;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		717D75A5265B1A9F00A5EBDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus/Power_Thesaurus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LKPBD94D7D;
+				INFOPLIST_FILE = "Power Thesaurus copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.00d46edde02ac253;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6EBFDB8244E1349008A14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F6EBFDB9244E1349008A14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F6EBFDBB244E1349008A14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus Extension/Power_Thesaurus_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = LKPBD94D7D;
+				INFOPLIST_FILE = "Power Thesaurus Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F6EBFDBC244E1349008A14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus Extension/Power_Thesaurus_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = LKPBD94D7D;
+				INFOPLIST_FILE = "Power Thesaurus Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F6EBFDBF244E1349008A14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus/Power_Thesaurus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = LKPBD94D7D;
+				INFOPLIST_FILE = "Power Thesaurus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6EBFDC0244E1349008A14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus/Power_Thesaurus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = LKPBD94D7D;
+				INFOPLIST_FILE = "Power Thesaurus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6EBFDC2244E1349008A14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Power ThesaurusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.powerthesaurus.Power-ThesaurusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Thesaurus.app/Contents/MacOS/Power Thesaurus";
+			};
+			name = Debug;
+		};
+		F6EBFDC3244E1349008A14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Power ThesaurusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.powerthesaurus.Power-ThesaurusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Power Thesaurus.app/Contents/MacOS/Power Thesaurus";
+			};
+			name = Release;
+		};
+		F6EBFDC5244E1349008A14D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Power ThesaurusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.powerthesaurus.Power-ThesaurusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Power Thesaurus";
+			};
+			name = Debug;
+		};
+		F6EBFDC6244E1349008A14D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Power ThesaurusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.powerthesaurus.Power-ThesaurusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Power Thesaurus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717D75A3265B1A9F00A5EBDF /* Build configuration list for PBXNativeTarget "Power Thesaurus copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717D75A4265B1A9F00A5EBDF /* Debug */,
+				717D75A5265B1A9F00A5EBDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EBFD7A244E1348008A14D6 /* Build configuration list for PBXProject "Power Thesaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EBFDB8244E1349008A14D6 /* Debug */,
+				F6EBFDB9244E1349008A14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EBFDBA244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power Thesaurus Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EBFDBB244E1349008A14D6 /* Debug */,
+				F6EBFDBC244E1349008A14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EBFDBE244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power Thesaurus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EBFDBF244E1349008A14D6 /* Debug */,
+				F6EBFDC0244E1349008A14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EBFDC1244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power ThesaurusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EBFDC2244E1349008A14D6 /* Debug */,
+				F6EBFDC3244E1349008A14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6EBFDC4244E1349008A14D6 /* Build configuration list for PBXNativeTarget "Power ThesaurusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EBFDC5244E1349008A14D6 /* Debug */,
+				F6EBFDC6244E1349008A14D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6EBFD77244E1348008A14D6 /* Project object */;
+}

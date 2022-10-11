@@ -1,0 +1,39 @@
+{
+   "antonyms_count": {
+      "message": "$count$ antonyms",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "definitions_count": {
+      "message": "$count$ definitions",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "network_error": {
+      "description": "Message shown to user when there is a network error.",
+      "message": "Error! No Internet connection."
+   },
+   "reboot_button": {
+      "message": "Try again"
+   },
+   "synonyms_count": {
+      "message": "$count$ synonyms",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "100"
+         }
+      }
+   },
+   "term_not_found": {
+      "message": "Term not found"
+   }
+}
