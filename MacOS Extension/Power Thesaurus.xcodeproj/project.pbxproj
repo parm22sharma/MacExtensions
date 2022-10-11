@@ -726,7 +726,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus Extension/Power_Thesaurus_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 18;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "Power Thesaurus Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -735,7 +735,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221101.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -748,7 +748,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Power Thesaurus Extension/Power_Thesaurus_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 18;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "Power Thesaurus Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -757,7 +757,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221101.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -771,7 +771,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 18;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "Power Thesaurus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -779,7 +779,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -792,7 +792,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 18;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "Power Thesaurus/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -800,7 +800,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jett.automation.b6123e66c452a021;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221101;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
