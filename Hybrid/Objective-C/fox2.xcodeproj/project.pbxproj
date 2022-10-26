@@ -426,7 +426,7 @@
 				TargetAttributes = {
 					946C56E01E92D88E00573562 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = LKPBD94D7D;
+						DevelopmentTeam = FVVB83N8AC;
 						ProvisioningStyle = Automatic;
 					};
 					946C56F71E92D88F00573562 = {
@@ -723,12 +723,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "fox2 iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jett.aug31;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221104;
 				PRODUCT_NAME = fox2;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -745,12 +745,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "fox2 iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 2;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jett.aug31;
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221104;
 				PRODUCT_NAME = fox2;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
