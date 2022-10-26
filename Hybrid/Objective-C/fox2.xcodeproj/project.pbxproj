@@ -436,7 +436,7 @@
 					};
 					946C570A1E92D88F00573562 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = LKPBD94D7D;
+						DevelopmentTeam = FVVB83N8AC;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
@@ -803,13 +803,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "fox2 macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.44ec3f494fc8fbe8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221104;
 				PRODUCT_NAME = fox2;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -825,13 +825,13 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
-				DEVELOPMENT_TEAM = LKPBD94D7D;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FVVB83N8AC;
 				INFOPLIST_FILE = "fox2 macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.44ec3f494fc8fbe8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jett.20221104;
 				PRODUCT_NAME = fox2;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
